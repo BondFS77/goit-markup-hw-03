@@ -80,6 +80,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
 }
 .hero-btn:hover,
 .hero-btn:focus,
@@ -240,6 +241,9 @@ img {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
+}
+.containerheader-container {
+  display: flex;
 }
 .header-start {
   border-bottom: 1px solid #e7e9fc;
