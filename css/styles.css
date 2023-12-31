@@ -65,7 +65,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -121,11 +121,11 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 .features-item {
- flex-basis: calc((100% - 3 * 24px) / 4) 
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team {
   background: var(--CLOUD, #f4f4fd);
@@ -145,12 +145,15 @@ img {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 .team-item {
   background-color: #ffffff;
-flex-basis: calc((100% - 3 * 24px) / 4) 
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
@@ -177,9 +180,11 @@ flex-basis: calc((100% - 3 * 24px) / 4)
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 .portfolio-item {
-   width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-headlines {
   color: #2e2f42;
@@ -224,8 +229,8 @@ flex-basis: calc((100% - 3 * 24px) / 4)
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-part-pit {
   color: #f4f4fd;
