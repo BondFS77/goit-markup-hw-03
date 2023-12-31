@@ -18,6 +18,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
@@ -172,8 +173,31 @@ ol {
 .logo-part-pit {
   color: #f4f4fd;
 }
+
 .container {
-  height: 1158px;
+  display: flex;
+  width: 1158px;
+  padding: 0 15px 0 15px;
 }
-.container {
+.header-start {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.header-punkt {
+  margin-right: 40px;
+}
+.header-punkt-1 {
+  margin-right: 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
