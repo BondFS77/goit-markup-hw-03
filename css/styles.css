@@ -234,6 +234,7 @@ img {
 }
 .logo-part-pit {
   color: #f4f4fd;
+  display: inline-block;
 }
 
 .container {
