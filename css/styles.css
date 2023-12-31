@@ -32,6 +32,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -220,12 +221,11 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   margin-bottom: 16px;
+  display: inline-block;
 }
 .logo-part-pit {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .container {
