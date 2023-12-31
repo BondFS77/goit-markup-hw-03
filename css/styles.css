@@ -10,6 +10,9 @@ ul,
 ol {
   list-style: none;
 }
+img {
+  display: block;
+}
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -209,6 +212,7 @@ ol {
   display: flex;
   width: 1158px;
   padding: 0 15px 0 15px;
+  margin: 0 auto;
 }
 .header-start {
   border-bottom: 1px solid #e7e9fc;
@@ -224,9 +228,7 @@ ol {
 }
 .header-punkt {
   margin-right: 40px;
-}
-.header-punkt-1 {
-  margin-right: 0;
+  padding: 24px 0;
 }
 .address-list {
   display: flex;
