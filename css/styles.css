@@ -234,11 +234,9 @@ img {
 }
 .logo-part-pit {
   color: #f4f4fd;
-  display: inline-block;
 }
 
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
