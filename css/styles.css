@@ -51,6 +51,7 @@ ol {
 }
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
   color: var(--WHITE, #fff);
@@ -59,6 +60,7 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  max-width: 496px;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -69,14 +71,32 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus,
 .hero-btn-active {
   background-color: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .features {
   background: #fff;
+  padding: 120px 0;
 }
 .features-headlines {
   line-height: 1.2;
@@ -88,12 +108,20 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .features-item-text {
   color: var(--SLATE, #434455);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 .team {
   background: var(--CLOUD, #f4f4fd);
