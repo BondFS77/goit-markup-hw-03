@@ -128,6 +128,7 @@ img {
 }
 .team {
   background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
 }
 .team-headlines {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -137,12 +138,17 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 .team-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-subtitle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -150,12 +156,15 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-item-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .portfolio {
   background: #fff;
@@ -233,4 +242,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+}
+.div-name {
+  padding: 32px 0;
 }
